@@ -1,0 +1,78 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false,
+    "module": "ESNext",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "allowJs": true,
+    "jsx": "preserve",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "strict": false,
+    "incremental": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage",
+    ".next",
+    ".omx",
+    "App.tsx",
+    "index.tsx",
+    "src/App.tsx",
+    "src/AppRoutes.tsx",
+    "src/entry-server.tsx",
+    "src/pages/**",
+    "src/legacy-pages/**",
+    "src/test/**",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/__tests__/**",
+    "src/components/CalendarSyncButton.tsx",
+    "src/components/ICSExportButton.tsx",
+    "src/components/ProtectedRoute.tsx",
+    "src/components/RouteMap.tsx",
+    "src/components/Toast.tsx",
+    "src/components/ToastProvider.tsx",
+    "src/components/VirtualizedList.tsx",
+    "src/components/VirtualizedTable.tsx",
+    "src/lib/config.ts",
+    "src/lib/serviceWorker.ts",
+    "convex/**",
+    "components/**",
+    "scripts/**",
+    "vitest.config.ts"
+  ]
+}

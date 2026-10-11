@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Elite Irrigation app icon">
+  <rect width="192" height="192" rx="42" fill="#166534"/>
+  <path d="M96 35c24 28 42 52 42 78 0 28-19 48-42 48s-42-20-42-48c0-26 18-50 42-78Z" fill="#ffffff"/>
+  <path d="M72 115c12 11 35 13 52-2" fill="none" stroke="#16a34a" stroke-width="11" stroke-linecap="round"/>
+  <path d="M80 82c12-11 26-17 44-18" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round"/>
+</svg>

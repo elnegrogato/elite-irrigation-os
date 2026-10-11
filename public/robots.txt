@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /tech
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+Disallow: /account
+Disallow: /billing
+Disallow: /settings
+Disallow: /api-keys
+Disallow: /notifications
+Disallow: /activity
+Disallow: /onboarding
+Disallow: /invoice/
+Disallow: /public/invoices/
+
+Sitemap: https://eliteirrigation.com/sitemap.xml

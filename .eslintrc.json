@@ -1,0 +1,33 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "ignorePatterns": [
+    ".next/**",
+    ".omx/**",
+    "coverage/**",
+    "node_modules/**",
+    "public/**",
+    "components/**",
+    "convex/**",
+    "scripts/**",
+    "src/legacy-pages/**",
+    "src/pages/**",
+    "src/test/**",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/__tests__/**",
+    "src/data/generated/**",
+    "src/components/CalendarSyncButton.tsx",
+    "src/components/ICSExportButton.tsx",
+    "src/components/ProtectedRoute.tsx",
+    "src/components/RouteMap.tsx",
+    "src/components/Toast.tsx",
+    "src/components/ToastProvider.tsx",
+    "src/components/VirtualizedList.tsx",
+    "src/components/VirtualizedTable.tsx",
+    "src/lib/config.ts",
+    "src/lib/serviceWorker.ts"
+  ],
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
+}

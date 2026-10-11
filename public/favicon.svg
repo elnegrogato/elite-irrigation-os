@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="112" fill="#11100d"/>
+  <!-- Elegant Tree and Water Drop Icon -->
+  <path d="M256 120 C220 200 160 260 160 320 C160 373 203 416 256 416 C309 416 352 373 352 320 C352 260 292 200 256 120 Z" fill="#16a34a" opacity="0.9"/>
+  <path d="M256 180 C235 240 200 280 200 320 C200 350 225 375 256 375 C287 375 312 350 312 320 C312 280 277 240 256 180 Z" fill="#ffffff" opacity="0.92"/>
+</svg>

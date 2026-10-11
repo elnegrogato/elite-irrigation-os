@@ -1,0 +1,78 @@
+{
+  "budgets": [
+    {
+      "path": "dist-client/**/*.js",
+      "maxSize": "200 kB",
+      "gzip": true,
+      "warning": "JavaScript bundle is too large. Consider code splitting."
+    },
+    {
+      "path": "dist-client/**/*.css",
+      "maxSize": "50 kB",
+      "gzip": true,
+      "warning": "CSS bundle is too large. Consider removing unused styles."
+    },
+    {
+      "path": "dist-client/react-vendor*.js",
+      "maxSize": "100 kB",
+      "gzip": true,
+      "warning": "React vendor bundle is too large."
+    },
+    {
+      "path": "dist-client/charts*.js",
+      "maxSize": "150 kB",
+      "gzip": true,
+      "warning": "Charts bundle is too large."
+    },
+    {
+      "path": "dist-client/convex*.js",
+      "maxSize": "50 kB",
+      "gzip": true,
+      "warning": "Convex bundle is too large."
+    },
+    {
+      "path": "dist-client/**/*.{png,jpg,jpeg,svg,webp}",
+      "maxSize": "100 kB",
+      "gzip": false,
+      "warning": "Image is too large. Consider optimization."
+    }
+  ],
+  "performanceThresholds": {
+    "FCP": {
+      "good": 1800,
+      "warning": 2500,
+      "critical": 3000
+    },
+    "LCP": {
+      "good": 2500,
+      "warning": 3500,
+      "critical": 4000
+    },
+    "CLS": {
+      "good": 0.1,
+      "warning": 0.2,
+      "critical": 0.25
+    },
+    "FID": {
+      "good": 100,
+      "warning": 200,
+      "critical": 300
+    },
+    "TTFB": {
+      "good": 800,
+      "warning": 1200,
+      "critical": 1800
+    }
+  },
+  "resourceLimits": {
+    "maxScripts": 10,
+    "maxStylesheets": 3,
+    "maxFonts": 3,
+    "maxImages": 20
+  },
+  "timings": {
+    "maxPageLoad": 3000,
+    "maxTTI": 3500,
+    "maxInteractive": 5000
+  }
+}
