@@ -11,6 +11,8 @@ ARG NEXT_PUBLIC_CONVEX_URL=https://placeholder.convex.cloud
 ENV NEXT_TELEMETRY_DISABLED=1
 ENV NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL
 ENV NEXT_PUBLIC_CONVEX_URL=$NEXT_PUBLIC_CONVEX_URL
+# Increase Node heap for the large build (14k+ generated pages)
+ENV NODE_OPTIONS="--max-old-space-size=8192"
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN npm run build
